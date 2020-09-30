@@ -3,7 +3,7 @@
 function returnFirstTwoDrivers(arrayOfDrivers){
   // let newArray = [arrayOfDrivers[0], arrayOfDrivers[1]];
   // return newArray;
-  return drivers.slice(0, 2)
+  return arrayOfDrivers.slice(0, 2)
 }
 
 function returnLastTwoDrivers(arrayOfDrivers){
