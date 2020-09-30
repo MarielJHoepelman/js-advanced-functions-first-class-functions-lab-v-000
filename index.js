@@ -1,8 +1,9 @@
 // Code your solution in this file!
 
 function returnFirstTwoDrivers(arrayOfDrivers){
-  let newArray = [arrayOfDrivers[0], arrayOfDrivers[1]];
-  return newArray;
+  // let newArray = [arrayOfDrivers[0], arrayOfDrivers[1]];
+  // return newArray;
+  return drivers.slice(0, 2)
 }
 
 function returnLastTwoDrivers(arrayOfDrivers){
