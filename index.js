@@ -6,9 +6,10 @@ function returnFirstTwoDrivers(arrayOfDrivers){
 }
 
 function returnLastTwoDrivers(arrayOfDrivers){
-  let index = arrayOfDrivers.length;
-  let newArray = [arrayOfDrivers[index - 2], arrayOfDrivers[index - 1]];
-  return newArray;
+  // let index = arrayOfDrivers.length;
+  // let newArray = [arrayOfDrivers[index - 2], arrayOfDrivers[index - 1]];
+  // return newArray;
+     return drivers.slice(-2)
 }
 
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
