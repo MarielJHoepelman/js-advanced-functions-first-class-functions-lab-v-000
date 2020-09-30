@@ -15,7 +15,7 @@ function returnLastTwoDrivers(arrayOfDrivers){
 
 const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers];
 
-const createFareMultiplier = (a) => (b) => { return a * b };
+const createFareMultiplier = (a) => (b) => { return a * b }; //ES6 notation 
 
 const fareDoubler = (a) => { return a * 2 };
 
