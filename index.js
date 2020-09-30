@@ -21,8 +21,8 @@ const createFareMultiplier = (a) => (b) => { return a * b }; //ES6 notation
 //
 // const fareTripler = (a) => { return a * 3 };
 
-  const fareDoubler = createFareMultiplier(2)
-  const fareTripler = createFareMultiplier(3)
+  const fareDoubler = createFareMultiplier(2);
+  const fareTripler = createFareMultiplier(3);
 
 function selectDifferentDrivers(drivers, func) {
   return func(drivers);
